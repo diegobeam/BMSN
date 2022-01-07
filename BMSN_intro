@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head> <link rel="stylesheet" href="style_2.css"/>  </head>
+  <body>
+    <h1> Intro to Bernardsville Middle School News</h1>
+    <h3> An intro to how to use and remix Bernardsville middle school</h3>
+    <a href="index.html">Home</a>
+    <p> Bernardsville Middle School News(BMSN for short) is a website about the various news going on about BMS, but you already know that.</p>
+    <h4>How do you navigate BMSN?</h4>
+    <p>to navigate BMSN,</p>
+    <li>go to home page</li>
+    <li> find the articles under the BMSN heading</li>
+    <li>click the article you want to read</li>
+    <li> Now, enjoy!</li>
+    
+    
+  
+      
+      
+      
+      </body>
+</html>
