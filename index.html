@@ -1,75 +1,296 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Home | BMSN</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/gh/Dheirya/BMSN@v1.0.1/index.css" rel="stylesheet">
-  </head>
-  <body>
-    <div class="splash" id="splash">
-      <div class="splash_logo">
-        BMS
+<html lang="en">
+   <head>
+      <link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+      <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com"/>
+      <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"/>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Home | BMSN</title>
+      <meta name="author" content="Dheirya Tyagy">
+      <meta name="description" content="News for BMS Students By Dheirya Tyagi and Declan Meyer">
+      <meta http-equiv="cache-control" content="public">
+      <style>@media only screen and (max-width:700px){#handles{display:none!important}}#body{opacity:0;-webkit-animation:on .6s ease-in-out 3.7s forwards;-moz-animation:on .6s ease-in-out 3.7s forwards;-o-animation:on .6s ease-in-out 3.7s forwards;animation:on .6s ease-in-out 3.7s forwards}.splash{width:100vw;height:100vh;position:fixed;top:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden}.splash_logo{position:absolute;margin:-15px 0 0 -25px;top:50vh;z-index:5;left:50vw;width:50px;text-align:center;height:30px;font-size:26px;font-weight:600;color:#fff;opacity:1;will-change:opacity;-webkit-animation:logo .3s ease-in 1.5s forwards,off .6s ease-in-out 3.2s forwards;-moz-animation:logo .3s ease-in 1.5s forwards,off .6s ease-in-out 3.2s forwards;-o-animation:logo .3s ease-in 1.5s forwards,off .6s ease-in-out 3.2s forwards;animation:logo .3s ease-in 1.5s forwards,off .6s ease-in-out 3.2s forwards}.splash_logo:before{display:block;position:absolute;left:15px;bottom:-5px;width:20px;height:1px;background-color:#757474;content:""}.splash_logo:after{display:block;position:absolute;left:15px;top:-5px;width:20px;height:1px;background-color:#757474;content:"";will-change:width}.splash_svg{position:relative;margin:auto;top:0;left:0;width:100%;height:100%;bottom:0;right:0}.splash_svg svg{width:100%;height:100%;-webkit-backface-visibility:visible;backface-visibility:visible}.splash_svg svg rect{width:100%;height:100%;fill:#f1f1f1;stroke:0;-webkit-clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh);clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh);-webkit-animation:expand .7s ease-in forwards 2.7s;-moz-animation:expand .7s ease-in forwards 2.7s;-o-animation:expand .7s ease-in forwards 2.7s;animation:expand .7s ease-in forwards 2.7s}.splash_minimize{position:absolute;margin:auto;width:100%;height:100%;top:0;left:0;z-index:4}.splash_minimize svg{width:100%;height:100%;-webkit-backface-visibility:visible;backface-visibility:visible}.splash_minimize svg rect{width:100%;height:100%;-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);-webkit-animation:scale .2s ease-out forwards 1s,hide 1.3s ease-out forwards 1.2s;-moz-animation:scale .2s ease-out forwards 1s,hide 1.3s ease-out forwards 1.2s;-o-animation:scale .2s ease-out forwards 1s,hide 1.3s ease-out forwards 1.2s;animation:scale .2s ease-out forwards 1s,hide 1.3s ease-out forwards 1.2s}@-webkit-keyframes scale{100%{-webkit-clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh);clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh)}}@-moz-keyframes scale{100%{-webkit-clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh);clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh)}}@-o-keyframes scale{100%{-webkit-clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh);clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh)}}@keyframes scale{100%{-webkit-clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh);clip-path:polygon(45vw 40vh,55vw 40vh,55vw 60vh,45vw 60vh)}}@-webkit-keyframes hide{100%{fill:transparent}}@-moz-keyframes hide{100%{fill:transparent}}@-o-keyframes hide{100%{fill:transparent}}@keyframes hide{100%{fill:transparent}}@-webkit-keyframes off{100%{opacity:0}}@-moz-keyframes off{100%{opacity:0}}@-o-keyframes off{100%{opacity:0}}@keyframes off{100%{opacity:0}}@-webkit-keyframes on{100%{opacity:1}}@-moz-keyframes on{100%{opacity:1}}@-o-keyframes on{100%{opacity:1}}@keyframes on{100%{opacity:1}}@-webkit-keyframes logo{100%{color:#292929}}@-moz-keyframes logo{100%{color:#292929}}@-o-keyframes logo{100%{color:#292929}}@keyframes logo{100%{color:#292929}}@-webkit-keyframes type{0%{width:0}}@-moz-keyframes type{0%{width:0}}@-o-keyframes type{0%{width:0}}@keyframes type{0%{width:0}}@-webkit-keyframes type2{0%{width:0}50%{width:0}100%{width:100}}@-moz-keyframes type2{0%{width:0}50%{width:0}100%{width:100}}@-o-keyframes type2{0%{width:0}50%{width:0}100%{width:100}}@keyframes type2{0%{width:0}50%{width:0}100%{width:100}}@-webkit-keyframes expand{25%{-webkit-clip-path:polygon(0vw 0vh,55vw 40vh,55vw 58vh,45vw 58vh);clip-path:polygon(0vw 0vh,55vw 40vh,55vw 60vh,45vw 60vh);fill:white}50%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);fill:#f1f1f1}75%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);fill:white}100%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);fill:#f1f1f1}}@-moz-keyframes expand{25%{-webkit-clip-path:polygon(0vw 0vh,55vw 40vh,55vw 58vh,45vw 58vh);clip-path:polygon(0vw 0vh,55vw 40vh,55vw 60vh,45vw 60vh);fill:white}50%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);fill:#f1f1f1}75%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);fill:white}100%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);fill:#f1f1f1}}@-o-keyframes expand{25%{-webkit-clip-path:polygon(0vw 0vh,55vw 40vh,55vw 58vh,45vw 58vh);clip-path:polygon(0vw 0vh,55vw 40vh,55vw 60vh,45vw 60vh);fill:white}50%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);fill:#f1f1f1}75%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);fill:white}100%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);fill:#f1f1f1}}@keyframes expand{25%{-webkit-clip-path:polygon(0vw 0vh,55vw 40vh,55vw 58vh,45vw 58vh);clip-path:polygon(0vw 0vh,55vw 40vh,55vw 60vh,45vw 60vh);fill:white}50%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,45vw 60vh);fill:#f1f1f1}75%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,55vw 60vh,0vw 100vh);fill:white}100%{-webkit-clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);clip-path:polygon(0vw 0vh,100vw 0vh,100vw 100vh,0vw 100vh);fill:#f1f1f1}}@-webkit-keyframes bg-scrolling-reverse{100%{background-position:50px 50px}}@-moz-keyframes bg-scrolling-reverse{100%{background-position:50px 50px}}@-o-keyframes bg-scrolling-reverse{100%{background-position:50px 50px}}@keyframes bg-scrolling-reverse{100%{background-position:50px 50px}}@font-face{font-display:swap;font-family:Quicksand;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58m-xDwxUD2GF9Zc.woff) format("woff");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-display:swap;font-family:Quicksand;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58i-xDwxUD2GF9Zc.woff) format("woff");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-display:swap;font-family:Quicksand;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/quicksand/v24/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xDwxUD2GFw.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}body{font-family:Quicksand!important}.colored-toast.swal2-icon-success{background-color:#a5dc86!important}.colored-toast.swal2-icon-error{background-color:#f27474!important}.colored-toast.swal2-icon-warning{background-color:#f8bb86!important}.colored-toast.swal2-icon-info{background-color:#3fc3ee!important}.colored-toast.swal2-icon-question{background-color:#87adbd!important}.colored-toast .swal2-title{color:#fff}.colored-toast .swal2-close{color:#fff}.colored-toast .swal2-html-container{color:#fff}</style>
+   </head>
+   <body class="bg-gray-200 leading-normal tracking-normal">
+      <div class="splash" id="splash">
+         <div class="splash_logo">
+            BMS
+         </div>
+         <div class="splash_svg">
+            <svg width="100%" height="100%">
+               <rect width="100%" height="100%" ></rect>
+            </svg>
+         </div>
+         <div class="splash_minimize">
+            <svg width="100%" height="100%">
+               <rect width="100%" height="100%" ></rect>
+            </svg>
+         </div>
       </div>
-      <div class="splash_svg">
-        <svg width="100%" height="100%">
-          <rect width="100%" height="100%">
-            </rect></svg>
-          </div>
-        <div class="splash_minimize">
-          <svg width="100%" height="100%">
-            <rect width="100%" height="100%">
-              </rect></svg>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"/>
+      <div id="body">
+         <script>if (sessionStorage.getItem('splash') !== 'true') {sessionStorage.setItem('splash', 'true');}else{document.getElementById("splash").style.display = "none";document.getElementById("body").setAttribute("id", "kool");}</script>
+         <div class="w-full m-0 p-0 bg-cover bg-bottom" style="background-image:url('https://res.cloudinary.com/mjkui/image/upload/v1641581937/banner-e1_w4fufu.png'); height: 60vh; max-height:460px;">
+            <div class="container max-w-4xl mx-auto pt-16 md:pt-32 text-center break-normal">
+               <p class="text-white font-extrabold text-4xl sm:text-5xl">BMSN</p>
+               <p class="text-xl sm:text-2xl text-gray-200">From Dheirya Tyagi and Declan Meyers</p>
             </div>
-        </div>
-        <div class="text">
-          <div class="header">
-            <h2>BMSN</h2>
-            <p>News By <a target="_blank" href="https://socialrumbles.com/@Dheirya_Tyagi_CEO" style="color:#fff">Dheirya Tyagi</a> and <a target="_blank" href="https://socialrumbles.com/@diegobeam" style="color:#fff">Declan Meyer</a></p>
-          </div>
-          <div class="row">
-            <div class="leftcolumn">
-              <div class="card">
-                <a class="co" href="https://google.com/">
-                  <h2>Article Title</h2>
-                </a>
-                <h5>Date Posted</h5>
-                <a class="co" href="https://google.com/">
-                  <div class="fakeimg" style="height:200px;">Image</div>
-                </a>
-                <p>Article Words</p>
-                <a href="https://google.com/">Read More</a>
-              </div>
-              <div class="card">
-                <a class="co" href="https://google.com/">
-                  <h2>Article Title</h2>
-                </a>
-                <h5>Date Posted</h5>
-                <a class="co" href="https://google.com/">
-                  <div class="fakeimg" style="height:200px;">Image</div>
-                </a>
-                <p>Article Words</p>
-                <a href="https://google.com/">Read More</a>      
-              </div>
+         </div>
+         <svg style="margin-bottom:-828px" width="100%" height="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,700 C 0,700 0,140 0,140 C 37.232292984890506,146.2588105329182 74.46458596978101,152.5176210658364 109,149 C 143.535414030219,145.4823789341636 175.37394910576648,132.18832626957263 211,135 C 246.62605089423352,137.81167373042737 286.03961760715316,156.7290738558731 330,168 C 373.96038239284684,179.2709261441269 422.467580465621,182.89537830693493 461,164 C 499.532419534379,145.10462169306507 528.0900605303631,103.68941291638727 562,114 C 595.9099394696369,124.31058708361273 635.1721774129262,186.34697002751605 667,189 C 698.8278225870738,191.65302997248395 723.221229817932,134.9227069735486 761,112 C 798.778770182068,89.0772930264514 849.9429033153457,99.96220207828955 891,122 C 932.0570966846543,144.03779792171045 963.0071569206846,177.22848471329328 995,184 C 1026.9928430793154,190.77151528670672 1060.0284690019162,171.12385906853743 1096,153 C 1131.9715309980838,134.87614093146257 1170.8789670716512,118.27607901255699 1211,122 C 1251.1210329283488,125.72392098744301 1292.4556627114785,149.77182488123464 1334,149 C 1375.5443372885215,148.22817511876536 1417.2983820824347,122.63662146250438 1435,117 C 1452.7016179175653,111.36337853749562 1446.3508089587826,125.68168926874782 1440,140 C 1440,140 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#a2d9ff44" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 350)"></path><path d="M 0,700 C 0,700 0,280 0,280 C 35.401841637765955,303.86151395267046 70.80368327553191,327.7230279053409 106,314 C 141.1963167244681,300.2769720946591 176.18710853563832,248.96940233130672 211,234 C 245.81289146436168,219.03059766869328 280.44788258191477,240.39936276943212 326,256 C 371.55211741808523,271.6006372305679 428.02136113670247,281.43314659096495 461,279 C 493.97863886329753,276.56685340903505 503.46667287127525,261.86805086670796 539,259 C 574.5333271287247,256.13194913329204 636.1119473781963,265.0946499422031 680,283 C 723.8880526218037,300.9053500577969 750.0855376159396,327.7533493644796 782,313 C 813.9144623840604,298.2466506355204 851.5459021580455,241.8919525998786 883,241 C 914.4540978419545,240.1080474001214 939.7308537518783,294.6788402360059 979,316 C 1018.2691462481217,337.3211597639941 1071.5306828344414,325.3926864560978 1112,327 C 1152.4693171655586,328.6073135439022 1180.1464149103558,343.75041393960265 1215,324 C 1249.8535850896442,304.24958606039735 1291.8836575241353,249.60565778549156 1336,243 C 1380.1163424758647,236.39434221450844 1426.3189549931042,277.826954918431 1444,292 C 1461.6810450068958,306.173045081569 1450.840522503448,293.0865225407845 1440,280 C 1440,280 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#a2d9ff66" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 350)"></path><path d="M 0,700 C 0,700 0,420 0,420 C 40.14827159179961,413.6765946536895 80.29654318359923,407.353189307379 114,400 C 147.70345681640077,392.646810692621 174.96209885740268,384.26383742417346 215,400 C 255.03790114259732,415.73616257582654 307.85506138679,455.5914609959269 342,459 C 376.14493861321,462.4085390040731 391.6176555954373,429.3703185921189 424,413 C 456.3823444045627,396.6296814078811 505.6743162314607,396.9272646355975 544,409 C 582.3256837685393,421.0727353644025 609.6850794787202,444.9206228654908 654,440 C 698.3149205212798,435.0793771345092 759.5853658536585,401.39024390243907 796,388 C 832.4146341463415,374.60975609756093 843.9734571066456,381.5184015247531 873,406 C 902.0265428933544,430.4815984752469 948.5208057197591,472.5361499985487 985,469 C 1021.4791942802409,465.4638500014513 1047.9433200143187,416.33699848105186 1091,394 C 1134.0566799856813,371.66300151894814 1193.7059142229662,376.1158560772438 1230,402 C 1266.2940857770338,427.8841439227562 1279.2330230938167,475.1995772099729 1314,468 C 1348.7669769061833,460.8004227900271 1405.3619934017668,399.08583508286495 1430,382 C 1454.6380065982332,364.91416491713505 1447.3190032991165,392.4570824585675 1440,420 C 1440,420 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#a2d9ff88" class="transition-all duration-300 ease-in-out delay-150 path-2" transform="rotate(-180 720 350)"></path><path d="M 0,700 C 0,700 0,560 0,560 C 25.39109297088244,571.9851528166494 50.78218594176488,583.9703056332986 90,583 C 129.21781405823512,582.0296943667014 182.2623492038229,568.1039302834548 220,571 C 257.7376507961771,573.8960697165452 280.1684172429435,593.6139732328822 315,597 C 349.8315827570565,600.3860267671178 397.063981824403,587.4401767850161 438,576 C 478.936018175597,564.5598232149839 513.5756554594446,554.6253196270532 555,543 C 596.4243445405554,531.3746803729468 644.6333963378182,518.0585447067716 681,520 C 717.3666036621818,521.9414552932284 741.890759189282,539.1405015458606 778,557 C 814.109240810718,574.8594984541394 861.8035669050536,593.3794491097862 893,588 C 924.1964330949464,582.6205508902138 938.8949731905038,553.3417020149944 978,534 C 1017.1050268094962,514.6582979850056 1080.6165403329312,505.2537428302363 1120,510 C 1159.3834596670688,514.7462571697637 1174.6388654777709,533.6433266640604 1209,546 C 1243.3611345222291,558.3566733359396 1296.8279977559848,564.1729505135223 1345,562 C 1393.1720022440152,559.8270494864777 1436.04914349829,549.6648712818508 1451,548 C 1465.95085650171,546.3351287181492 1452.975428250855,553.1675643590746 1440,560 C 1440,560 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#a2d9ffff" class="transition-all duration-300 ease-in-out delay-150 path-3" transform="rotate(-180 720 350)"></path></svg>
+         <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+            <div class="mx-0 sm:mx-6">
+               <nav class="mt-0 w-full">
+                  <div class="container mx-auto flex items-center">
+                     <div class="flex w-1/2 pl-4 text-sm">
+                        <ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+                           <li class="mr-2">
+                              <a class="inline-block py-2 px-2 text-white no-underline hover:underline" href="#featured">Featured</a>
+                           </li>
+                           <li class="mr-2">
+                              <a class="inline-block text-gray-200 no-underline hover:text-gray-100 hover:underline py-2 px-2" href="#latestposts">Latest</a>
+                           </li>
+                           <li class="mr-2">
+                              <a class="inline-block text-gray-200 no-underline hover:text-gray-100 hover:underline py-2 px-2" href="#contactus">Contact</a>
+                           </li>
+                           <li class="mr-2">
+                              <a class="inline-block text-gray-200 no-underline hover:text-gray-100 hover:underline py-2 px-2" href="#aboutus">About</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="flex w-1/2 justify-end content-center" id="handles">
+                        <a class="inline-block text-gray-200 no-underline hover:text-gray-100 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar" data-tippy-content="Author Profile" href="#*~*" onclick="Swal.fire({icon:'info',title:'Dheirya Tyagi Profile',html:'<ul><li><a href=https://socialrumbles.com/@Dheirya_Tyagi_CEO target=_blank>- Social Rumbles Profile</a></li><li><a href=https://socialrumbles.com/?redirect=no target=_blank>- Personal Site</a></li><li><a href=mailto:dtyagi@student.shsd.org>- dtyagi@student.shsd.org</a></li></ul>'})">
+                        Dheirya Tyagi
+                        </a>
+                        <a class="inline-block text-gray-200 no-underline hover:text-gray-100 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar" data-tippy-content="Author Profile" href="#*~*" onclick="Swal.fire({icon:'info',title:'Declan Meyer Profile',html:'<ul><li><a href=https://socialrumbles.com/@diegobeam target=_blank>- Social Rumbles Profile</a></li><li><a href=https://twitch.tv/diegobeam target=_blank>- Twitch</a></li><li><a href=mailto:dmeyer1@student.shsd.org>- dmeyer1@student.shsd.org</a></li></ul>'})">
+                        Declan Meyer
+                        </a>
+                     </div>
+                  </div>
+               </nav>
+               <div class="bg-gray-200 w-full text-xl md:text-2xl text-gray-800 leading-normal rounded-t" id="featured">
+                  <div class="flex h-full bg-white rounded overflow-hidden shadow-lg">
+                     <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                        <div class="w-full md:w-2/3 rounded-t">
+                           <img src="https://picsum.photos/seed/id-1-bmns/800/600" class="lazyload h-full w-full shadow">
+                        </div>
+                        <div class="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
+                           <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                              <p class="w-full text-gray-600 text-xs md:text-sm pt-6 px-6">Featured Article</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem Ipsum</div>
+                              <p class="text-gray-800 text-base px-6 mb-5">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lectus ligula. Nullam posuere faucibus odio, ac posuere mi congue eget. In consectetur vehicula est, ac facilisis augue viverra a. Fusce dapibus nunc lacus, ac fringilla odio fringilla ac. Phasellus eu dapibus leo. Nullam ultricies augue nec leo feugiat ultrices. Nunc pharetra imperdiet urna in imperdiet. Curabitur vitae ornare lacus. Vivamus a malesuada purus. Aliquam velit arcu, blandit id elementum sit amet, facilisis id augue. Vivamus viverra viverra orci nec malesuada. Integer consectetur gravida felis, in aliquet mi. Ut suscipit aliquam pellentesque. Ut varius sem quis nibh dictum tempus...
+                              </p>
+                           </div>
+                           <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                              <div class="flex items-center justify-between">
+                                 <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/1.jpg" alt="Avatar of Author">
+                                 <p class="text-gray-600 text-xs md:text-sm">5 MIN READ</p>
+                              </div>
+                           </div>
+                        </div>
+                     </a>
+                  </div>
+                  <h2 id="latestposts" class="text-gray-900 font-bold text-3xl md:text-4xl py-4 text-center" style="margin-bottom:-70px">Latest Posts</h2>
+                  <div class="flex flex-wrap justify-between pt-12 -mx-6">
+                     <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-2-bmns/800/600" class="lazyload h-64 w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Politics</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800 text-base px-6 mb-5">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/2.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">4 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-3-bmns/800/600" class="lazyload h-64 w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Business</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800 text-base px-6 mb-5">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ip Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/3.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">6 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-4-bmns/800/600" class="lazyload h-64 w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Technology</p>
+                              <div class="w-full  font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800 text-base px-6 mb-5">
+                                 Lorem ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/4.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">9 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-5-bmns/800/600" class="lazyload h-full w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Science</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800  text-base px-6 mb-5">
+                                 Lorem ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/5.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">2 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="w-full md:w-1/2 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 flex-row bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-6-bmns/800/600" class="lazyload h-full w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Health</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800  text-base px-6 mb-5">
+                                 Lorem ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/6.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">11 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="w-full md:w-2/3 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-7-bmns/800/600" class="lazyload h-full w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Drama</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800  text-base px-6 mb-5">
+                                 Lorem ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/7.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">4 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+                        <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
+                           <a href="post.html" class="flex flex-wrap no-underline hover:no-underline">
+                              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://picsum.photos/seed/id-8-bmns/800/600" class="lazyload h-full w-full rounded-t pb-6">
+                              <p class="w-full text-gray-600 text-xs md:text-sm px-6">Sports</p>
+                              <div class="w-full font-bold text-2xl text-gray-900 px-6">Lorem ipsum dolor sit amet.</div>
+                              <p class="text-gray-800  text-base px-6 mb-5">
+                                 Lorem ipsum eu nunc commodo posuere et sit amet ligula.
+                              </p>
+                           </a>
+                        </div>
+                        <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-lg p-6">
+                           <div class="flex items-center justify-between">
+                              <img class="lazyload w-8 h-8 rounded-full mr-4 avatar" data-tippy-content="Dheirya Tyagi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://randomuser.me/api/portraits/lego/8.jpg" alt="Avatar of Author">
+                              <p class="text-gray-600 text-xs md:text-sm">14 MIN READ</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <center>
+                  <div id="contactus" class="container bg-green-100 rounded mt-8 p-4 md:p-24 text-center" style="width:100%!important">
+                     <h2 class="font-bold break-normal text-3xl md:text-4xl">Contact Us</h2>
+                     <h3 class="font-bold break-normal font-normal text-gray-600 text-base md:text-xl">Have any questions or suggestions? Email us here!</h3>
+                     <div class="w-full text-center pt-4">
+                        <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+                           <div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+                              <input type="text" name="subject" placeholder="Subject" class="flex-auto appearance-none rounded shadow p-3 text-gray-600 mr-2 focus:outline-none">
+                              <input type="text" name="text" placeholder="Your Message" class="flex-auto appearance-none rounded shadow p-3 text-gray-600 mr-2 focus:outline-none">
+                              <input type="hidden" name="access_token" value="2vu447piocjmpz41wlrz33wt" />
+                              <input type="hidden" name="success_url" value="." />
+                              <input type="hidden" name="error_url" value=".?err=1" />
+                              <button id="submit_form" type="submit" value="Send" class="flex-auto mt-4 md:mt-0 block md:inline-block appearance-none bg-green-500 text-white text-base font-semibold tracking-wider py-3 rounded shadow hover:bg-green-400">Send</button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </center>
+               <h2 id="aboutus" class="text-gray-900 font-bold text-3xl md:text-4xl py-4 text-center" style="margin-bottom:-20px">About Us</h2>
+               <div class="flex w-full items-center px-8 py-4 md:px-24">
+                  <img class="lazyload w-10 h-10 rounded-full mr-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://res.cloudinary.com/mjkui/image/upload/v1641588018/ADea4I76HlAQNUhEd0fPdnfoBxWrJKc5wfKz0GuJ0fqa_s32-c-mo_aif9ig.jpg" alt="Avatar of Author">
+                  <div class="flex-1">
+                     <p class="text-base font-bold text-base md:text-xl leading-none">Dheirya Tyagi</p>
+                     <p class="text-gray-600 text-xs md:text-base">I'm a 13-year-old kid, and I like to swim, be with my friends, draw, program, and more! Creator of this site and creator of <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://socialrumbles.com">socialrumbles.com</a></p>
+                  </div>
+                  <div class="justify-end">
+                     <button class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full" onclick="Swal.fire({icon:'info',title:'Dheirya Tyagi Profile',html:'<ul><li><a href=https://socialrumbles.com/@Dheirya_Tyagi_CEO target=_blank>- Social Rumbles Profile</a></li><li><a href=https://socialrumbles.com/?redirect=no target=_blank>- Personal Site</a></li><li><a href=mailto:dtyagi@student.shsd.org>- dtyagi@student.shsd.org</a></li></ul>'})">Profile</button>
+                  </div>
+               </div>
+               <div class="flex w-full items-center px-8 py-4 md:px-24">
+                  <img class="lazyload w-10 h-10 rounded-full mr-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAEsCAMAAADaaRXwAAAAkFBMVEXY2Nimpqa+vr7ExMS8vLzJycm6urq5ubnX19etra3T09Ourq7W1tbU1NTS0tKsrKyvr6/R0dHQ0NCxsbGwsLCrq6vNzc20tLTV1dXFxcWysrLOzs7Dw8O9vb2qqqrGxsa7u7vAwMCpqanKysq2trbIyMizs7O1tbXPz8+/v7/BwcHMzMyoqKi3t7e4uLjCwsLnzYKKAAADBElEQVR4XuzAMQEAAADCIPunNsYeWAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODs3etu2kAQR/EOScj6BgXMxZhrEtJc2/d/u1baD5PESnaRPNpKOecR+AkkxoK/a0/NhUHNqXUAnF15nItZ82MJwHlNMzEtmwJwTpMbMe5mAkB8rhDzCgdAdBuxTzYARFeIffITgNhy8c22A4O2M/HlAES28B61s/F2tQdZABDZrQc5WIEfPMgtAJFdeZBLK5BLD3IFwDcBAQQQQACp9o+Hwebh/wABpF2KL9u75CCAuIFo91ViEEDcb3lblqcFAeRR3jcrU4IA0srHjilBAFl2QF6qdCCAVNKtSQcCyF66vaYDAeRRutUBgIflygoEkKF0Gwc8dlKvjEAAuZRuxZce052IzFY2IIA8Sbd1yMOLWIAA8izdtl95zEVUpHcQQNxOOi2CHl7EAoTTydM5n1iTuWjr0gAEkDKLfIOoh4oYgHBcnL7Iuy7CHipiAMLzkMVONPnzucdYPnZfGoDwxHCkB8bs9lOPkXp0RHoBAUR7Ho5F5OaucbEeKtInCCCaq/SlDXtoy9IABJBQo0wkLGIPAoh6xIrYgwCSZ/JVv5wxCCDxHipiDwKIesSK2IMAkhcS7s7ZgAAyWY/O8lARCxBAJmMZvxOp1CMk0isIIHoeyd6IVD8ltlfXHwgg6qEi6hHXoF8QQPQ8kuXqEd91XyCA6HlERbxHAhBA1EMr/olUtSQCAUTPIyqyqiURCCDqoRW1JAABJPD1LwUIIOqRHgQQ9UgPAoieR9KDANI9j6QHAUQ90oMAoh7pQQAJeaQH4Sdt6UEAuQYEEAIkECAECCAEiGmApA8QQPbD3tp/TxD+SBkQQAABBBAGXYjJI0bBiNm882NYkpheZZyYmO/uLwbuybWn5sKg5tS6v+3AMQEAAADCIPunNsYeWAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOBrNTMp6EjJUwAAAABJRU5ErkJggg==" data-src="https://res.cloudinary.com/mjkui/image/upload/v1641588034/AOh14GiGbmeM624mdFJiTSHdKLbaFDvnsEgCuwLJnAPQ2w_s32-c_ejctau.jpg" alt="Avatar of Author">
+                  <div class="flex-1">
+                     <p class="text-base font-bold text-base md:text-xl leading-none">Declan Meyer</p>
+                     <p class="text-gray-600 text-xs md:text-base">Art is pog I guess <a class="text-gray-800 hover:text-green-500 no-underline border-b-2 border-green-500" href="https://www.twitch.tv/diegobeam">twitch.tv</a></p>
+                  </div>
+                  <div class="justify-end">
+                     <button class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full" onclick="Swal.fire({icon:'info',title:'Declan Meyer Profile',html:'<ul><li><a href=https://socialrumbles.com/@diegobeam target=_blank>- Social Rumbles Profile</a></li><li><a href=https://twitch.tv/diegobeam target=_blank>- Twitch</a></li><li><a href=mailto:dmeyer1@student.shsd.org>- dmeyer1@student.shsd.org</a></li></ul>'})">Profile</button>
+                  </div>
+               </div>
             </div>
-            <div class="rightcolumn">
-              <div class="card">
-                <h2>About</h2>
-                <img src="https://res.cloudinary.com/mjkui/image/upload/v1640614467/Featured-image-what-is-an-email-header-43kb_dqryw4.png" style="width:100%;">
-                <p>This site was create by Dheirya Tyagi and Declan Meyer for news that is about student activity, individual activity, and clubs that are not necessarily school organized.</p>
-              </div>
-              <div class="card">
-                <h3>Links</h3>
-                <div class="fakeimg" onclick="window.open('http://bms.shsd.org', '_blank')">BMS Offical Website</div>
-                <br>
-                <div class="fakeimg" onclick="window.open('https://socialrumbles.com/@Dheirya_Tyagi_CEO', '_blank')">@Dheirya_Tyagi_CEO <span class="rumble">Social Rumbles</span></div>
-                <br>
-                <div class="fakeimg" onclick="window.open('https://socialrumbles.com/@diegobeam', '_blank')">@diegobeam <span class="rumble">Social Rumbles</span></div>
-              </div>
+         </div>
+         <footer class="bg-gray-900">
+            <div class="container max-w-6xl mx-auto flex items-center px-2 py-8">
+               <div class="w-full mx-auto flex flex-wrap items-center">
+                  <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+                     <a class="text-gray-900 no-underline hover:text-gray-900 hover:no-underline" href="index.html">
+                     🏫 <span class="text-base text-gray-200">BMSN</span> <span class="text-base text-gray-400"> - Dheirya Tyagi Companies 2022</span>
+                     </a>
+                  </div>
+                  <div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+                     <ul class="list-reset flex justify-center flex-1 md:flex-none items-center">
+                        <li>
+                           <a class="inline-block py-2 px-3 text-white no-underline" href="index.html">Home</a>
+                        </li>
+                        <li>
+                           <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="https://socialrumbles.com/games/">Games</a>
+                        </li>
+                        <li>
+                           <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="https://socialrumbles.com/home/">Social Media</a>
+                        </li>
+                        <li>
+                           <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:underline py-2 px-3" href="#*~*" onclick="try{navigator.share({title: document.title,url:window.location.href}).then(() => console.log('Successful share! 🎉')).catch(err => console.error(err));}catch(e){ Toast.fire({icon: 'error',title:'Browser Not Supported'});}">Share</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="footer">
-            <h3>Dheirya Tyagi Companies 2022</h3>
-          </div>
-        </div>
-  </body>
+         </footer>
+      </div>
+      <script async defer src="https://bmsn.pages.dev/index.min.js"></script>
+   </body>
 </html>
